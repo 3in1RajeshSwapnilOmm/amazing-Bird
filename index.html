@@ -230,6 +230,14 @@ recognition.addEventListener("result", (e) => {
       console.log("opening clock");
       window.open("https://3in1rajeshswapnilomm.github.io/hello-world/");
     }
+if (text.includes("open game")) {
+      p = document.createElement("p");
+      p.classList.add("replay");
+      p.innerText = "opening game";
+      texts.appendChild(p);
+      console.log("opening game");
+      window.open("https://3in1rajeshswapnilomm.github.io/hello-world/");
+    }
     p = document.createElement("p");
   }
 });
